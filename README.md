@@ -11,11 +11,11 @@ npm install res-interceptor
 
 ##Usage
 
-```
+```js
 var interceptor=require('res-interceptor');
 ```
 
-```
+```js
 router.get('/',
     interceptor(function(res,req,next,data){
         console.log(data); // { headers: { 'x-powered-by': 'Express' }, status: 200, body: 'hello world' }
