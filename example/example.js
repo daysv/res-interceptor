@@ -1,19 +1,5 @@
-res-interceptor
-==================
-
-Get response in middleware with Express.
-
-##Installation
-
-```
-npm install res-interceptor -save
-```
-
-##Usage
-
-```
 var express = require('express');
-var interceptor=require('../interceptor');
+var interceptor=require('../lib/interceptor');
 var app = express();
 
 app.use(
@@ -34,7 +20,3 @@ app.get('/', function (req, res) {
 });
 
 app.listen(3000);
-```
-
-##License
-###MIT
