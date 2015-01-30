@@ -1,7 +1,7 @@
 {
   "name": "res-interceptor",
-  "version": "0.1.0",
-  "description": "Get response in middleware with Express.",
+  "version": "1.0.0",
+  "description": "Get & overwrite response in middleware with Express.",
   "main": "./index.js",
   "repository": {
     "type": "git",
