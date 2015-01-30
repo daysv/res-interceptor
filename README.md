@@ -1,7 +1,7 @@
 res-interceptor
 ==================
 
-Get response in middleware with Express.
+Get & overwrite response in middleware with Express.
 
 ##Installation
 
