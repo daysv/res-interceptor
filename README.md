@@ -11,7 +11,7 @@ npm install res-interceptor -save
 
 ##Usage
 
-```
+```js
 var express = require('express');
 var interceptor=require('../interceptor');
 var app = express();
@@ -34,7 +34,7 @@ app.get('/', function (req, res) {
 });
 
 app.listen(3000);
-```javascript
+```
 
 ##License
 ###MIT
