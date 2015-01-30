@@ -1,0 +1,22 @@
+{
+  "name": "res-interceptor",
+  "version": "0.1.0",
+  "description": "Get response in middleware with Express.",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/daysv/res-interceptor.git"
+  },
+  "keywords": [
+    "response",
+    "interceptor"
+  ],
+  "author": {
+    "name": "daysv"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daysv/res-interceptor/issues"
+  },
+  "homepage": "https://github.com/daysv/res-interceptor"
+}
