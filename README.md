@@ -18,7 +18,7 @@ var app = express();
 
 app.use(
     interceptor (function (req,res,next,data) {
-        console.log(data); // { headers: { 'x-powered-by': 'Express', id: '1' }, status: 200, body: 'hello world' }
+        console.log(data); // => { headers: { 'x-powered-by': 'Express', id: '1' }, status: 200, body: 'hello world' }
         this.set('id','2'); // overwrite response headers in middleware.
         // or
         this.set({
